@@ -1,0 +1,1 @@
+//attaque speed + élévée, degats entre warrior et tank, pv faible 

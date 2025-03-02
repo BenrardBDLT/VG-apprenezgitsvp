@@ -1,0 +1,1 @@
+// degats, moyen hp, moyen tout le reste

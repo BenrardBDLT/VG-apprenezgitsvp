@@ -1,0 +1,27 @@
+To do list : 
+
+- faire trois ennemis de différents types ( weak, strong, boss) -- fait
+- faire en sorte que le joueur attaque l'ennemi (faire en sorte que l'ennemi prenne des degats, qu'il meurt si besoin) -- fait
+- regler le probleme de beug de camera -- regler beug rotation + gros mob
+- faire en sorte que l'ennemi attaque le joueur ( il s'arrete lorsqu'il attaque et laisse un delai avant d'infliger le coup, faire en sorte que le joueur prenne des degats qu'il meurt si besoin)
+- ajouter un ebarre de vie pour le joueur
+- ajouter un système d'esquive pour le joueur
+- ajouter un système de vitesse d'attaque
+- ajouter différentes attaque (d'abord pour les ennemis, pour qu'ils puissent avoir plusieurs schéma puis ensuite pour les joeurs, à voir quand j'aurai les cartes)
+- revérifier le système de détection des ennemis
+- ajouter les modeles 3d une fois tout les beugs reglés, pour pouvoir bien faire les hitbox
+- regler les probleme physique, genre deplacement saut etc ...
+-------------------------------------------------------------------------------------------------
+- faire les différents classes des joueurs en fonction de leurs cartes 
+- coder les cartes et leurs bonus
+- faire en sorte que des cartes ai une afinitée entre elles pour mieux fonctionner (pcp de bonus)
+- gérer les stats des joueurs en fonction de leurs classe
+- gérer l'inventaire du joueur pour le deck building.
+- une fois les cartes intégrée pleinement dans le jeu, et donc les classes, ajouter les différent "style de combats" par exemple attaque a distance, attaque rapide, attaque lente + tanker les degats etc...
+
+--------------------------------------------------------------------------------------------------
+- ajouter les animations a tout les objets, vérifier que les hitbox ne beuguent pas 
+- implémenter le tout sur la carte pour vérifier les collisions avec tout les objets, les ennemis et les joueurs 
+- revoir le système de vie et d'attque des ennemis en fonction du nombre de joueur présents sur la map (les rendre beaucoup plus dur si on est 4, ou beaucoup plus nombreux)
+- implémenter un système de spawn aléatoire des mobs sur la map
+- rendre le combat avec le boss super difficile
