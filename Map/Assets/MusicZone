@@ -1,0 +1,43 @@
+using UnityEngine;
+using System.Collections;
+
+public class MusicZone : MonoBehaviour
+{
+    public AudioSource audioSource; 
+    public AudioClip zoneMusic; 
+    public float repeatDelay = 5f; 
+
+    private void Start()
+    {
+        audioSource.clip = Faugard.wav; 
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            if (!audioSource.isPlaying)
+            {
+                StartCoroutine(PlayMusicWithLoop());
+            }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            StopAllCoroutines();
+            audioSource.Stop();
+        }
+    }
+
+    private IEnumerator PlayMusicWithLoop()
+    {
+        while (true)
+        {
+            audioSource.Play();
+            yield return new WaitForSeconds(audioSource.clip.length + repeatDelay);
+        }
+    }
+}
