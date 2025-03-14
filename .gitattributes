@@ -7,3 +7,4 @@ Map/Library/Artifact filter=lfs diff=lfs merge=lfs -text
 Map/Library/Bee/ filter=lfs diff=lfs merge=lfs -text
 Map/Library/PackageCache/ filter=lfs diff=lfs merge=lfs -text
 Map/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib filter=lfs diff=lfs merge=lfs -text
+Map/Library/ArtifactDB filter=lfs diff=lfs merge=lfs -text

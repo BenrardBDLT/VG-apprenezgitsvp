@@ -39,7 +39,7 @@ Material:
     - _Gradient: 1
     - _GradientPower: 1
     - _SNOWONOFF: 0
-    - _Smoothness: 0.7748996
+    - _Smoothness: 0
     - _SnowAmount: 1
     - _SnowCoverage: 0.45
     - _SnowFade: 0.83
